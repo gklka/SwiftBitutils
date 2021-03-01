@@ -48,7 +48,7 @@ There are also basic implementations of shifting the entire `Data` object by 0-7
 
 #### Set specific bits
 
-```
+```swift
 data[byte: 0, bit: 7] = false
 data[byte: 1, bit: 6] = false
 data[byte: 2, bit: 6] = false
@@ -61,13 +61,13 @@ data[bit: 23] = true
 
 #### Set specific range of bits
 
-```
+```swift
 data[bitRange: 8...15] = false
 ```
 
 #### Get specific bits
 
-```
+```swift
 print(data[bit: 0])
 print(data[bit: 7])
 print(data[bit: 14])
@@ -77,7 +77,7 @@ print(data[bit: 23])
 
 #### Shift Data
 
-```
+```swift
 data = data << 3
 data = data >> 6
 ```
