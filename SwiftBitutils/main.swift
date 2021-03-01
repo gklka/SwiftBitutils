@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 let bytes: [UInt8] = [
     0b0000_0001,
     0b0000_0010,
