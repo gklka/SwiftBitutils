@@ -33,6 +33,7 @@
 		4704C97325ECEF4400F96614 /* Data+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Hex.swift"; sourceTree = "<group>"; };
 		4704C97425ECEF4400F96614 /* Data+Bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Bits.swift"; sourceTree = "<group>"; };
 		4704C97525ECEF4400F96614 /* String+FrontPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FrontPadding.swift"; sourceTree = "<group>"; };
+		4704C97B25ECF5A300F96614 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +50,7 @@
 		4704C95E25ECEF2000F96614 = {
 			isa = PBXGroup;
 			children = (
+				4704C97B25ECF5A300F96614 /* README.md */,
 				4704C96925ECEF2000F96614 /* SwiftBitutils */,
 				4704C96825ECEF2000F96614 /* Products */,
 			);
