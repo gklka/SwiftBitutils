@@ -16,7 +16,7 @@ Display `Data` objects as bits. For example:
 
 #### Usage
 
-```
+```swift
 let data = Data(...)
 let string = data.binEncodedString()
 print(string)
@@ -34,7 +34,7 @@ ffffff
 
 #### Usage
 
-```
+```swift
 let data = Data(...)
 let string = data.hexEncodedString()
 print(string)
